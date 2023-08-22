@@ -1,0 +1,23 @@
+{
+  "name": "acf/custom-slider",
+  "title": "Slider custom",
+  "description": "A custom slider block.",
+  "style": [
+    "file:./index.css"
+  ],
+  "viewScript": [
+    "file:./slider.js",
+    "custom-slider"
+  ],
+  "category": "formatting",
+  "icon": "slides",
+  "keywords": [
+    "custom-slider",
+    "quote"
+  ],
+  "acf": {
+    "mode": "edit",
+    "renderTemplate": "custom-slider.php"
+  },
+  "align": "full"
+}
